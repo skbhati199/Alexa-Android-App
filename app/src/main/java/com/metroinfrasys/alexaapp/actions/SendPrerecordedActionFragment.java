@@ -62,8 +62,8 @@ public class SendPrerecordedActionFragment extends BaseListenerFragment {
         return getString(R.string.fragment_action_send_prerecorded);
     }
 
-    @Override
-    protected int getRawCode() {
-        return R.raw.code_prerecorded;
-    }
+//    @Override
+//    protected int getRawCode() {
+//        return R.raw.code_prerecorded;
+//    }
 }

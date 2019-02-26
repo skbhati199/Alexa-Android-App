@@ -48,7 +48,7 @@ public abstract class BaseListenerFragment extends Fragment {
         return null;
     }
 
-    @Override
+    /*@Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
         inflater.inflate(R.menu.code_menu, menu);
@@ -64,12 +64,12 @@ public abstract class BaseListenerFragment extends Fragment {
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     public abstract void startListening();
     protected abstract String getTitle();
-    @RawRes
-    protected abstract int getRawCode();
+//    @RawRes
+//    protected abstract int getRawCode();
 
     public interface AvsListenerInterface{
         AsyncCallback<AvsResponse, Exception> getRequestCallback();
